@@ -1,0 +1,9 @@
+version: "3"
+services:
+  php:
+    build: .
+    tty: true
+    volumes:
+      - third-party:/app
+volumes:
+  third-party: {}

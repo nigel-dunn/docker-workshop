@@ -1,0 +1,14 @@
+version: "3"
+services:
+  apache1:
+    image: httpd
+    ports:
+      - 80:80
+    volumes:
+      - ./www/first:/usr/local/apache2/htdocs
+  apache2:
+    image: httpd
+    ports:
+      - 8000:80
+    volumes:
+      - ./www/second:/usr/local/apache2/htdocs

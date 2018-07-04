@@ -1,0 +1,11 @@
+version: "3"
+services:
+  php72:
+    image: php:7.2-cli
+    tty: true
+  php71:
+    image: php:7.1-cli
+    tty: true
+  php56:
+    image: php:5.6-cli
+    tty: true

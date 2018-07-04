@@ -1,0 +1,9 @@
+version: "3"
+services:
+  node:
+    build: .
+    volumes:
+      - ./dist:/app/dist
+      - ./src:/app/src
+    tty: true
+
