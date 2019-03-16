@@ -10,6 +10,6 @@ RUN apt-get update && \
 RUN curl -sS https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer
 
-WORKDIR /app/
+WORKDIR /container-app/
 
 

@@ -4,6 +4,6 @@ services:
     build: .
     tty: true
     volumes:
-      - third-party:/app
+      - permanent:/container-app
 volumes:
-  third-party: {}
+  permanent: {}

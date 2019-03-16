@@ -4,4 +4,4 @@ services:
     build: .
     tty: true
     volumes:
-      - ./app:/app
+      - ./host-app:/container-app
