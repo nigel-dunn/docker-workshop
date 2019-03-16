@@ -1,7 +1,7 @@
 # Hello Docker!
 
 ## Installation
-Community Edition - https://www.docker.com/community-edition#/download
+Docker for Desktop - https://www.docker.com/products/docker-desktop
 
 ## Docker Hub
 * Images - https://hub.docker.com/
